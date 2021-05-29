@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>io.protonull</groupId>
+  <artifactId>megarepo</artifactId>
+  <version>1.0.0</version>
+  <packaging>pom</packaging>
+
+  <modules>
+    <!-- Parent POM -->
+    <module>ParentPOM</module>
+    <!-- External Prerequisites -->
+    <module>RecipeManager</module>
+    <!-- Civ Plugins -->
+    <module>BanStick</module>
+    <module>Bastion</module>
+    <module>Brewery</module>
+    <module>Citadel</module>
+    <module>CivChat2</module>
+    <module>CivDuties</module>
+    <module>CivModCore</module>
+    <module>CivSpy</module>
+    <module>CombatTagPlus</module>
+    <module>CropControl</module> <!-- Legacy Devoted Plugin -->
+    <module>Donum</module>
+    <module>EssenceGlue</module>
+    <module>ExilePearl</module>
+    <module>FactoryMod</module>
+    <module>Finale</module>
+    <module>HiddenOre</module>
+    <module>ItemExchange</module>
+    <module>JukeAlert</module>
+    <module>KiraBukkitGateway</module>
+    <module>NameColors</module>
+    <module>NameLayer</module>
+    <module>RailSwitch</module>
+    <module>RandomSpawn</module>
+    <module>RealisticBiomes</module>
+    <module>SimpleAdminHacks</module>
+    <module>WorldBorder</module>
+  </modules>
+
+</project>

@@ -1,0 +1,47 @@
+# Editorconfig is awesome: http://EditorConfig.org
+
+# top-most EditorConfig file
+root = true
+
+# Unix-style newlines with a newline ending every file
+[*]
+charset = utf-8
+indent_style = tab
+tab_width = 4
+indent_size = 4
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+max_line_length = 120
+# Intellij specific
+ij_continuation_indent_size = 8
+ij_formatter_off_tag = @formatter:off
+ij_formatter_on_tag = @formatter:on
+ij_formatter_tags_enabled = true
+
+[*.java]
+indent_style = tab
+indent_size = 4
+# Intellij specific
+ij_java_use_single_class_imports = true
+ij_java_blank_lines_after_imports = 1
+ij_java_blank_lines_after_package = 1
+
+[package-info.{java,kt}]
+max_line_length = 80
+
+[*.{xml,yml,yaml,json}]
+indent_style = space
+indent_size = 2
+
+[*.csv]
+insert_final_newline = false
+
+[*.{md,txt}]
+max_line_length = 80
+
+[{LICENSE,LICENCE}.txt]
+max_line_length = 80
+
+[*.bat]
+end_of_line = crlf
